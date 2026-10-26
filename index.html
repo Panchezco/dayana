@@ -10,11 +10,14 @@
     <div id="inicio">
       <h2>Atrapa los mangos de Dayana</h2>
       <p>Ayuda a Dayana a atrapar los mangos<br>Evita los chocolates (¡van muy rápido!)<br>Tienes 3 vidas</p>
+      <p class="extra">Atrapa varios mangos seguidos para multiplicar tus puntos.<br>Reloj de arena: cámara lenta. Imán: canasta grande. Huellita: vida extra.<br>Muévete con el ratón, el dedo o las flechas. P para pausar.</p>
+      <p id="record-inicio"></p>
       <button id="btn-jugar" onclick="iniciar()">Jugar</button>
     </div>
 
     <div id="hud" style="display:none;">
       <span id="vidas-txt">🐾🐾🐾</span>
+      <span id="nivel-txt">Nivel 1</span>
       <span id="puntos-txt">0 pts</span>
     </div>
 
@@ -24,6 +27,7 @@
       <img src="perro.svg" alt="perro peludo">
       <div id="overlay-txt">Game over, Dayana</div>
       <div id="overlay-sub"></div>
+      <div id="overlay-record"></div>
       <button id="btn-reiniciar" onclick="reiniciar()">Intentar de nuevo</button>
     </div>
   </div>

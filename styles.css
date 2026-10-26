@@ -135,3 +135,20 @@ body {
 #btn-reiniciar:hover {
   background: #ffe4ef;
 }
+#inicio p.extra {
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+#record-inicio,
+#overlay-record {
+  font-size: 14px;
+  font-weight: bold;
+  color: #c0396e;
+}
+
+#nivel-txt {
+  font-size: 13px;
+  font-weight: bold;
+  color: #e07b00;
+}
