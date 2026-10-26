@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <rect width="200" height="200" fill="#fde8ef"/>
+
+  <!-- cuerpo peludo -->
+  <g fill="#e9d3b4">
+    <circle cx="100" cy="165" r="38"/>
+    <circle cx="70" cy="170" r="24"/>
+    <circle cx="130" cy="170" r="24"/>
+    <circle cx="82" cy="148" r="22"/>
+    <circle cx="118" cy="148" r="22"/>
+    <circle cx="100" cy="195" r="30"/>
+  </g>
+
+  <!-- orejas caídas y peludas -->
+  <g fill="#c9a67c">
+    <circle cx="48" cy="78" r="17"/>
+    <circle cx="42" cy="98" r="17"/>
+    <circle cx="44" cy="118" r="15"/>
+    <circle cx="50" cy="134" r="11"/>
+    <circle cx="152" cy="78" r="17"/>
+    <circle cx="158" cy="98" r="17"/>
+    <circle cx="156" cy="118" r="15"/>
+    <circle cx="150" cy="134" r="11"/>
+  </g>
+
+  <!-- cabeza: muchos círculos para el pelo esponjoso -->
+  <g fill="#f3e2c8">
+    <circle cx="100" cy="95" r="44"/>
+    <circle cx="70" cy="62" r="18"/>
+    <circle cx="88" cy="52" r="18"/>
+    <circle cx="108" cy="50" r="18"/>
+    <circle cx="128" cy="58" r="18"/>
+    <circle cx="140" cy="76" r="16"/>
+    <circle cx="60" cy="78" r="16"/>
+    <circle cx="62" cy="104" r="16"/>
+    <circle cx="138" cy="104" r="16"/>
+    <circle cx="72" cy="124" r="16"/>
+    <circle cx="128" cy="124" r="16"/>
+    <circle cx="100" cy="132" r="18"/>
+  </g>
+
+  <!-- copete -->
+  <g fill="#fbf1e1">
+    <circle cx="92" cy="46" r="10"/>
+    <circle cx="106" cy="42" r="11"/>
+    <circle cx="118" cy="48" r="9"/>
+  </g>
+
+  <!-- hocico -->
+  <ellipse cx="100" cy="112" rx="22" ry="17" fill="#fbf1e1"/>
+
+  <!-- ojos -->
+  <g>
+    <circle cx="82" cy="90" r="7" fill="#2b1d14"/>
+    <circle cx="118" cy="90" r="7" fill="#2b1d14"/>
+    <circle cx="84.5" cy="87.5" r="2.2" fill="#fff"/>
+    <circle cx="120.5" cy="87.5" r="2.2" fill="#fff"/>
+  </g>
+
+  <!-- mejillas -->
+  <circle cx="72" cy="108" r="6" fill="#f4a7bd" opacity="0.6"/>
+  <circle cx="128" cy="108" r="6" fill="#f4a7bd" opacity="0.6"/>
+
+  <!-- nariz -->
+  <ellipse cx="100" cy="105" rx="8" ry="6" fill="#2b1d14"/>
+  <ellipse cx="97.5" cy="103" rx="2.5" ry="1.5" fill="#6b5545"/>
+
+  <!-- boca y lengua -->
+  <path d="M100 111 v5 M100 116 q-7 6 -13 1 M100 116 q7 6 13 1" stroke="#2b1d14" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M94 119 q6 14 12 0 z" fill="#e8607e"/>
+</svg>
